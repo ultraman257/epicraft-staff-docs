@@ -16,7 +16,10 @@ const IndexPage = () => (
       </ul>
       <h5>Rank Specific Infomation</h5>
       <ul>
+          <li><Link to="/commands/player">Player Commands</Link></li>
           <li><Link to="/commands/trial-mod">Trial-Mod Commands</Link></li>
+          <li><Link to="/commands/mod">Mod Commands</Link></li>
+          <li><Link to="/commands/admin">Admin Commands</Link></li>
       </ul>
   </Layout>
 )
