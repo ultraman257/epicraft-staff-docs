@@ -619,3 +619,11 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.notice {
+  background: rgba(0, 93, 193, 0.2);
+  border-left: solid 5px #005dc1;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+}

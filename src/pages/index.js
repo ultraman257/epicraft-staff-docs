@@ -9,6 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Home</h1>
+      <p className='notice' >This documentation is still in development and as such content will be missing.</p>
       <h5>General Infomation</h5>
       <ul>
           <li><Link to="/punishment-guidelines">Punishment Guidelines</Link></li>
