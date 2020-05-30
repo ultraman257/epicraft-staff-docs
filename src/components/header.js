@@ -17,17 +17,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
         <Link to="/"><h5 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `#eeeeee`,
-            textTransform: `uppercase`,
-              textDecoration: 'none',
-              fontWeight: '700'
-          }}
-        >
-          Epicraft Staff Documentation
-        </Link>
+        <Link to="/" className="headerName">Epicraft Staff Documentation</Link>
       </h5></Link>
     </div>
   </header>

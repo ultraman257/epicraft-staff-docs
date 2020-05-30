@@ -36,6 +36,8 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()} EpicraftMC. All Rights Reserved
+
+            <p className='newt'>Site by <span>Newt</span></p>
         </footer>
       </div>
     </>
